@@ -267,6 +267,9 @@ internal class Program
         // Ghi đè file "chromedriver.exe" cũ bằng file "chromedriver.exe" mới
         File.Copy(chromeDriverNew, directory, true);
     }
+    #endregion
+
+    #region Thay Đổi Tên File
     private void ChangeFileName(string oldFileName, string newFileName)
     {
         try
